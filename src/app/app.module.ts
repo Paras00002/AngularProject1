@@ -8,6 +8,9 @@ import { CustomaerComponent } from './customaer/customaer.component';
 import { UserComponent } from './user/user.component';
 import { InterestCalculationComponent } from './interest-calculation/interest-calculation.component';
 import { FormsModule } from '@angular/forms';
+import { PipeExampleComponent } from './pipe-example/pipe-example.component';
+import { SqrtPrgPipe } from './pipe-example/pipe/sqrt-prg.pipe';
+import { EmployeeComponent } from './employee/employee.component';
 
 @NgModule({
   declarations: [
@@ -15,8 +18,11 @@ import { FormsModule } from '@angular/forms';
     CalculatorComponent,
     CustomaerComponent,
     UserComponent,
-    InterestCalculationComponent
-  ],
+    InterestCalculationComponent,
+    PipeExampleComponent,
+    SqrtPrgPipe,
+    EmployeeComponent
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
