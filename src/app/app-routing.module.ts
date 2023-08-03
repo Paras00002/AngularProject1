@@ -8,6 +8,7 @@ import { PipeExampleComponent } from "./pipe-example/pipe-example.component"
 import { UserComponent } from "./user/user.component"
 import { NgModel } from "@angular/forms"
 import { CustomaerComponent } from './customaer/customaer.component';
+import { BookComponent } from './book/book.component';
 
 const routes: Routes=[
   {path:'calculator',component:CalculatorComponent},
@@ -15,7 +16,8 @@ const routes: Routes=[
   {path:'employee',component:EmployeeComponent},
   {path:'interest_calculation',component:InterestCalculationComponent},
   {path:'pipe_example',component:PipeExampleComponent},
-  {path:'user',component:UserComponent}
+  {path:'user',component:UserComponent},
+  {path:'book',component:BookComponent}
 ]
 
 @NgModule({

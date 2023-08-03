@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { PipeExampleComponent } from './pipe-example/pipe-example.component';
 import { SqrtPrgPipe } from './pipe-example/pipe/sqrt-prg.pipe';
 import { EmployeeComponent } from './employee/employee.component';
+import { BookComponent } from './book/book.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { EmployeeComponent } from './employee/employee.component';
     InterestCalculationComponent,
     PipeExampleComponent,
     SqrtPrgPipe,
-    EmployeeComponent
+    EmployeeComponent,
+    BookComponent
    ],
   imports: [
     BrowserModule,
