@@ -19,7 +19,7 @@
             <td>{{u.userid}}</td>
             <td>{{u.username|uppercase}}</td>
             <td>{{u.usersalary|currency:'Rs'}}</td>
-            <td>{{u.userdob}}</td>
+            <td>{{u.userdob|date:'fullDate'}}</td>
             <td>{{u.userhobby}}</td>
             <td>
                 <span [ngSwitch]="u.usersalary">
